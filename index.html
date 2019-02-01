@@ -19,14 +19,14 @@ Note:
 See [Isomorphic Javascript](#isomorphic-javasript).
 
 ### Isomorphic Javascript
-**WWYWI**: You need fast/optimized initial page load times. 
+*WWYWI*: You need fast/optimized initial page load times. 
  
-**TPIS**: Sending javascript bundles to the client and having the client execute that code is frequently slow compared to executing that code on the server and rendering the result on the client. 
+*TPIS*: Sending javascript bundles to the client and having the client execute that code is frequently slow compared to executing that code on the server and rendering the result on the client. 
  
-**WIIAHDIGMT**: Javascript that can be run serverside to pre-render a page, send that, and then send same(ish) code to render client side after the fact. See [Wikipedia Entry](https://en.wikipedia.org/wiki/Isomorphic_JavaScript). 
+*WIIAHDIGMT*: Javascript that can be run serverside to pre-render a page, send that, and then send same(ish) code to render client side after the fact. See [Wikipedia Entry](https://en.wikipedia.org/wiki/Isomorphic_JavaScript). 
 
 ### Code Splitting
-**WWYWI**: A significantly large portion of your client-side application code is not required on the inital execution, and this would mean that page load times are too long. 
+*WWYWI*: A significantly large portion of your client-side application code is not required on the inital execution, and this would mean that page load times are too long. 
 
-**WIIAHDIGMT**: It is the splitting of your javascript assets. As a result an initial smaller bundle is sent to the client, and remaining portions can be loaded on demand. Splitting can be done across any suitable state boundary e.g. a route change. 
+*WIIAHDIGMT*: It is the splitting of your javascript assets. As a result an initial smaller bundle is sent to the client, and remaining portions can be loaded on demand. Splitting can be done across any suitable state boundary e.g. a route change. 
  
