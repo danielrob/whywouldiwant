@@ -2,7 +2,7 @@
 http://whywouldyouwant.com/
 
 ## What
-Notes on what development project are, and guidance on when and why you would want to use them. 
+Notes on what various development projects are, and guidance on when and why you would want to use them. 
 
 ## Why
 Assessing the suitability of development projects for your needs is difficult. It is exacerbated by developers tendency to document how to use their project without explaining what their project is and under which circumstances that project would be the right fit.
